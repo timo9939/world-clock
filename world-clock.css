@@ -1,0 +1,55 @@
+body{
+    background-image: url(world-cover.jpg);
+    background-size: 1500px;
+
+  border: 2px solid;
+
+
+}
+
+nav{
+  position: sticky;
+}
+
+#home-title{
+  font-size: 50px;
+  background-color: hotpink;
+}
+
+.times{
+  top: 1000px;
+  display:flex ;
+  flex-direction: row;
+justify-content: space-evenly;
+
+}
+
+#losAngles-clock{
+  font-size: x-large;
+  align-content: center;
+  width: 200px;
+  height: 400px;
+background-color: rgba(240, 248, 255, 0.6);
+align-content: right;
+
+
+}
+
+#london-clock{
+  font-size: x-large;
+  width: 200px;
+  height: 400px;
+background-color: hsla(115, 87%, 61%, 0.76);
+}
+
+#hongKong-clock{
+  font-size: x-large;
+  width: 200px;
+  height: 400px;
+background-color: rgba(255, 217, 0, 0.815);
+}
+
+.clock-border{
+  border: 2px solid;
+  align-content: space-between;
+}

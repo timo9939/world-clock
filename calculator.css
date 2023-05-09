@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 
 
 body{
@@ -21,7 +21,7 @@ nav{
 }
 
 #calculator-title{
-  font-family: 'Oswald', sans-serif;
+
   
   font-size: 50px;
   align-items: center;

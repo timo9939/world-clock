@@ -1,5 +1,11 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
 body{
-  
+
+
     background-image: url(global.jpg);
     background-size: 1500px;
 
@@ -8,13 +14,22 @@ body{
 
 }
 
+nav{
+
+  display:flex
+
+}
+
 #calculator-title{
+  font-family: 'Oswald', sans-serif;
+  
   font-size: 50px;
   align-items: center;
   color: aliceblue;
   background-color: rgba(127, 255, 212, 0.595);
   left: 50%;
   right: 500px;
+  text-align: center;
 }
 
 section{
@@ -23,6 +38,7 @@ section{
     display:flex ;
     flex-direction: row;
   justify-content: space-evenly;
+  text-align: center;
   
   
   
@@ -35,6 +51,8 @@ section{
 }
 
 #losAngles-clock{
+  
+  font-size: 25px;
   color: aliceblue;
   width: 200px;
   height: 400px;
@@ -47,6 +65,7 @@ align-content: right;
 }
 
 #london-clock{
+  font-size: 25px;
   color: rgb(255, 35, 119);
   background-image: url(london2-clock.jpg);
   background-size: cover;
@@ -56,6 +75,7 @@ align-content: right;
 }
 
 #hongKong-clock{
+  font-size: 25px;
   color: coral;
   width: 200px;
   height: 400px;
